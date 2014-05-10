@@ -24,7 +24,7 @@ public class ClientSavedRequest extends SavedRequest{
     private String backUrl;
 
 
-    public ClientSavedRequest(HttpServletRequest request) {
+    public ClientSavedRequest(HttpServletRequest request,String backUrl) {
         super(request);
         this.scheme = request.getScheme();
         this.domain = request.getServerName();
