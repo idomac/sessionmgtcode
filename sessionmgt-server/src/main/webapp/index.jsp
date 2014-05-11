@@ -2,6 +2,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="org.springframework.util.IdGenerator" %>
 <%@ page import="org.springframework.util.LinkedMultiValueMap" %>
+<%@ page import="com.quanix.app.integration.core.ClientPrintOut" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -18,7 +19,7 @@
        multiValueMap.add("ss","xxx");
        multiValueMap.add("ss","uy");
 
-       out.println(multiValueMap.size());
+       out.println(multiValueMap.size()+"========="+ ClientPrintOut.printout());
 
    %>
 </body>
