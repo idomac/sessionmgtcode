@@ -7,7 +7,7 @@
         <relativePath>../sessionmgt-parent</relativePath>
         <artifactId>sessionmgt-parent</artifactId>
         <groupId>com.quanix.app</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0.GA</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
