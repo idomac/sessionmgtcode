@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <relativePath>../sessionmgt-parent</relativePath>
         <artifactId>sessionmgt-parent</artifactId>
         <groupId>com.quanix.app</groupId>
         <version>1.0.0.GA</version>
+        <relativePath>../sessionmgt-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.quanix.app</groupId>
             <artifactId>sessionmgt-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0.GA</version>
         </dependency>
 
     </dependencies>
