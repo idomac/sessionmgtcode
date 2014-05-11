@@ -11,10 +11,10 @@
     <description>项目整合</description>
 
     <modules>
-        <module>sessionmgt-core</module>
-        <module>sessionmgt-parent</module>
         <module>sessionmgt-server</module>
+        <module>sessionmgt-core</module>
         <module>sessionmgt-client</module>
+        <module>sessionmgt-parent</module>
         <module>sessionmgt-nginx</module>
         <module>sessionmgt-app1</module>
         <module>sessionmgt-app2</module>

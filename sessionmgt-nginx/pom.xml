@@ -12,5 +12,7 @@
 
     <artifactId>sessionmgt-nginx</artifactId>
 
+    <packaging>pom</packaging>
+
 
 </project>
