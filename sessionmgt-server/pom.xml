@@ -38,7 +38,7 @@
     <build>
         <finalName>sessionmgt-server</finalName>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>8.1.8.v20121106</version>
@@ -47,7 +47,7 @@
                         <contextPath>/${project.build.finalName}</contextPath>
                     </webAppConfig>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
@@ -56,7 +56,6 @@
                 <configuration>
                     <path>/${project.build.finalName}</path>
                 </configuration>
-
             </plugin>
 
         </plugins>
