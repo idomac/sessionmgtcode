@@ -14,6 +14,6 @@ public class IndexController {
 
         System.out.println("======= go home now ");
 
-        return "index.jsp";
+        return "index.html";
     }
 }
